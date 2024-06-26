@@ -1,14 +1,9 @@
-import { FaRegCopyright } from 'react-icons/fa';
-
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-content">
-                <FaRegCopyright />
-                <span>Nobloxia 2024</span>
-            </div>
-      </footer>
-    )
+        <div className="footer">
+            <p>© 2024 Nobloxia. All Rights Reserved.</p>
+        </div>
+    );
 }
 
-export default Footer
+export default Footer;
